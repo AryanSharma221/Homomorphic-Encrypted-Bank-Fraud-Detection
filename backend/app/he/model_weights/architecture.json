@@ -1,0 +1,29 @@
+{
+  "activation": "poly2",
+  "input_dim": 30,
+  "layers": [
+    {
+      "name": "fc1",
+      "in": 30,
+      "out": 32
+    },
+    {
+      "name": "act1",
+      "type": "poly2"
+    },
+    {
+      "name": "fc2",
+      "in": 32,
+      "out": 16
+    },
+    {
+      "name": "act2",
+      "type": "poly2"
+    },
+    {
+      "name": "fc3",
+      "in": 16,
+      "out": 1
+    }
+  ]
+}
